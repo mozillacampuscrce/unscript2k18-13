@@ -1,0 +1,24 @@
+{
+  "name": "unscript2k18-13",
+  "version": "1.0.0",
+  "description": "unscript",
+  "main": "index.js",
+  "dependencies": {
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^25.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozillacampuscrce/unscript2k18-13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mozillacampuscrce/unscript2k18-13/issues"
+  },
+  "homepage": "https://github.com/mozillacampuscrce/unscript2k18-13#readme"
+}
