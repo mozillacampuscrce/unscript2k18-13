@@ -1,0 +1,6 @@
+{
+    "short_name": "Event Manager",
+    "name": "Event Manager",
+    "start_url": "signin.html?launcher=true",
+    "gcm_sender_id": "103953800507"      
+}
