@@ -2,7 +2,7 @@
   "name": "unscript2k18-13",
   "version": "1.0.0",
   "description": "unscript",
-  "main": "index.js",
+  "main": "quickstart.js",
   "dependencies": {
     "google-auth-library": "^0.12.0",
     "googleapis": "^25.0.0"
