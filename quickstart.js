@@ -136,31 +136,17 @@ var gcal = require('google-calendar');
 var google_calendar = new gcal.GoogleCalendar(access_token);
 
 var event = {
-    'summary': 'CodeLabs',
+    'summary': 'Robocon',
     'location': 'Fr CRCE',
-    'description': 'Coding ',
+    'description': 'Robotics ',
     'start': {
-      'dateTime': '2018-03-22T09:00:00-07:00',
+      'dateTime': '2018-03-14T09:00:00-07:00',
       'timeZone': 'Asia/Calcutta',
     },
     'end': {
-      'dateTime': '2018-03-22T17:00:00-07:00',
+      'dateTime': '2018-03-14T17:00:00-07:00',
       'timeZone': 'Asia/Calcutta',
-    },
-    'recurrence': [
-      'RRULE:FREQ=DAILY;COUNT=2'
-    ],
-    'attendees': [
-      {'email': 'lpage@example.com'},
-      {'email': 'sbrin@example.com'},
-    ],
-    'reminders': {
-      'useDefault': false,
-      'overrides': [
-        {'method': 'email', 'minutes': 24 * 60},
-        {'method': 'popup', 'minutes': 10},
-      ],
-    },
+    }
   };
   
 
