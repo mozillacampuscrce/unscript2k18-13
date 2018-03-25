@@ -7,6 +7,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/views'));
 
+var approveEvents = require('./approve_event');
+approveEvents.approveEvents(app);
+
 //index page
 app.get('/', (request, response) => {
     response.render('signin.ejs');
